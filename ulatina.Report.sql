@@ -1,0 +1,47 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [ulatina].[Report](
+	[StudentID] [varchar](50) NULL,
+	[Career] [varchar](250) NULL,
+	[Gender] [varchar](2) NULL,
+	[Age] [int] NULL,
+	[City] [varchar](250) NULL,
+	[State] [varchar](250) NULL,
+	[HighschoolType] [varchar](250) NULL,
+	[TimeBTWStudies] [int] NULL,
+	[DegreeLevel] [varchar](100) NULL,
+	[Faculty] [varchar](250) NULL,
+	[Campus] [varchar](250) NULL,
+	[EnrollmentCohort] [int] NULL,
+	[AcademicCycles] [int] NULL,
+	[CreditsEarned] [int] NULL,
+	[CreditsAttempted] [int] NULL,
+	[Schedule] [varchar](50) NULL,
+	[TimeToStart] [int] NULL,
+	[CreditsEnrolled] [int] NULL,
+	[CoursesEnrolled] [int] NULL,
+	[StudentSubtype] [varchar](100) NULL,
+	[ScholarshipFlag] [int] NULL,
+	[ScholarshipPercent] [int] NULL,
+	[DiscountPercent] [int] NULL,
+	[PaymentPlan] [varchar](100) NULL,
+	[TotalFailedCourses] [int] NULL,
+	[FinalGrade] [float] NULL,
+	[AvgPMTHist] [float] NULL,
+	[AvgPMT] [float] NULL,
+	[NPayments] [int] NULL,
+	[AcademicCycle] [varchar](50) NULL,
+	[HasSurvey] [int] NULL,
+	[StopOutFlag] [int] NULL,
+	[ScoredProbabilities] [float] NULL,
+	[GeneralRisk] [varchar](50) NULL,
+	[RiskDecile] [int] NULL,
+	[Week] [int] NULL,
+	[University] [varchar](50) NULL,
+	[StudentType] [varchar](100) NULL,
+	[PreviousRiskCategory] [varchar](50) NULL,
+	[NumberWeeksAtRisk] [int] NULL
+) ON [PRIMARY]
+GO
